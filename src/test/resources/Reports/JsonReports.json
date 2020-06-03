@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10473975442,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Try To Login InValid User and Password",
+            "match": {
+              "location": "HotelSteps.user_Try_To_Login_InValid_User_and_Password()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11516318,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.scenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 556279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Try to Book Hotel",
+        "description": "",
+        "id": "to-validate-login-functionality;try-to-book-hotel;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 110510,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55488,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20087147354,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Book Hotel\"samsamsam\",\"samsamsam\",\"Sydney\",\"Hotel Creek\",\"Double\",\"1-One\",\"05.06.2020\",\"08.06.2020\",\"2-Two\" ,\"1-One\",\"Pandiya\",\"Rajan\",\"32,dr gopalan street palani\",\"0987654321123456\",\"VISA\",\"May\",\"2024\",\"453\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsamsam\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"samsamsam\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"1-One\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"05.06.2020\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"08.06.2020\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"2-Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"1-One\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"Pandiya\"",
+                  "offset": 117
+                },
+                {
+                  "val": "\"Rajan\"",
+                  "offset": 127
+                },
+                {
+                  "val": "\"32,dr gopalan street palani\"",
+                  "offset": 135
+                },
+                {
+                  "val": "\"0987654321123456\"",
+                  "offset": 165
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 184
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 191
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 197
+                },
+                {
+                  "val": "\"453\"",
+                  "offset": 204
+                }
+              ],
+              "location": "HotelSteps.book_Hotel(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17550052,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "verify hotel booking page",
+            "match": {
+              "location": "HotelSteps.verify_hotel_booking_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Manual"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Login functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/HotelLogin.feature",
+    "tags": []
+  }
+]

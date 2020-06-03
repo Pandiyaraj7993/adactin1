@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.598074">
+<testcase classname="To Validate Login functionality" name="Try to Book Hotel" time="30.598074">
+<system-out><![CDATA[Given User Try To Login InValid User and Password...........................passed
+When Book Hotel"samsamsam","samsamsam","Sydney","Hotel Creek","Double","1-One","05.06.2020","08.06.2020","2-Two" ,"1-One","Pandiya","Rajan","32,dr gopalan street palani","0987654321123456","VISA","May","2024","453".passed
+Then verify hotel booking page..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
